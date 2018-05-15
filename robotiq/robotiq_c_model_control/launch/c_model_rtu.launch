@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="robotiq_c_model_control" type="CModelRtuNode.py" name="CModel" args="/dev/ttyUSB0" output="screen"/>
+  <node pkg="gripper_control" type="gripper_control" name="gripper_control"/>
+</launch>

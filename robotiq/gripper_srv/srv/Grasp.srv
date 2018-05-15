@@ -1,0 +1,8 @@
+uint8 position
+uint8 speed
+uint8 force
+---
+bool in_goal
+uint8 command_position
+uint8 current_position
+uint8 feedback_current
